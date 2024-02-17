@@ -1,7 +1,8 @@
 FROM ubuntu:20.04
 
-RUN apt update && apt-get install -y curl && apt-get install -y python3 && apt-get install -y python3-pip \
-RUN python3 -m pip install virtualenv
+RUN apt update && \
+    apt-get install -y curl python3 python3-pip && \
+    python3 -m pip install virtualenv
 
 RUN mkdir -p /Projet_Linux_Image
 
