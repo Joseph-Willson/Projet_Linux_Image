@@ -23,10 +23,6 @@ def tensor_to_image(tensor):
   return PIL.Image.fromarray(tensor)
 
 
-import os
-import tensorflow as tf
-import matplotlib.pyplot as plt
-
 
 # Define the functions for loading and displaying images here
 def load_img(path_to_img):
@@ -216,8 +212,8 @@ for n in range(epochs):
   print("Train step: {}".format(step))
 
 # Enregistrer l'image résultante sur le disque
-result_image = tensor_to_image(image)
-result_image.save("result_image.png")
+# result_image = tensor_to_image(image)
+# result_image.save("result_image.png")
 
 end = time.time()
 print("Total time: {:.1f}".format(end-start))
