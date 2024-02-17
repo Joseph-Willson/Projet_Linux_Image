@@ -1,5 +1,7 @@
 #!/bin/bash
 
+source ./venv/bin/activate
+
 # Installer les dépendances Python via pip
 pip install -r requirements.txt
 
@@ -7,7 +9,7 @@ pip install -r requirements.txt
 pip install streamlit
 
 # Installation des autres dépendances
-pip install tensorflow matplotlib numpy
+pip install tensorflow matplotlib numpy IPython
 
 # Vous pouvez également exécuter d'autres commandes d'installation nécessaires à votre projet
 
