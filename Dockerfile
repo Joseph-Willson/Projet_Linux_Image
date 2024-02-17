@@ -9,6 +9,6 @@ RUN mkdir -p /Projet_Linux_Image
 WORKDIR /Projet_Linux_Image
 COPY . .
 
-RUN bash ../install.sh
+RUN bash install.sh
 
 CMD ["bash", "launch.sh"]
