@@ -13,7 +13,7 @@
 `   bash install.sh                                                  `
 
 
-#### Puis executer la commande bash ci-dessous pour lancer l'application
+#### Puis executer la commande bash ci-dessous pour lancer l'application et voila
 
 `   bash launch.sh                                                   `
 
