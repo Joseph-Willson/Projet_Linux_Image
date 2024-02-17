@@ -10,7 +10,7 @@ echo "******************* Données collectées *******************"
 # bash ./data_integrator/data_integrator.sh
 
 echo "******************* Affichage de l'application *******************"
-python -m streamlit run ./Webapp/app.py --server.port 9091
+python -m streamlit run ./Webapp/app.py --server.port 8084
 
 
 
