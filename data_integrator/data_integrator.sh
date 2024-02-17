@@ -1,4 +1,4 @@
-source ./Projet_Linux_Image/venv/bin/activate
+source ./venv/bin/activate
 
 python3 ./data_integrator/data_integrator.py
 

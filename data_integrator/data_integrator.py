@@ -73,14 +73,14 @@ def select_image(images_list, folder_name):
 
 
 def main():
-    content_folder_path = '../Projet_Linux_Image/content_images'
-    style_folder_path = '../Projet_Linux_Image/style_images'
+    content_folder_path = './content_images'
+    style_folder_path = './style_images'
 
     content_images = list_images_from_folder(content_folder_path)
     style_images = list_images_from_folder(style_folder_path)
 
-    selected_content_image = select_image(content_images, '../Projet_Linux_Image/content_images')
-    selected_style_image = select_image(style_images, '../Projet_Linux_Image/style_images')
+    selected_content_image = select_image(content_images, './content_images')
+    selected_style_image = select_image(style_images, './style_images')
 
     content_path = os.path.join(content_folder_path, selected_content_image)
     style_path = os.path.join(style_folder_path, selected_style_image)

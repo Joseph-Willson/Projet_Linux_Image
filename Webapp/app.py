@@ -40,8 +40,8 @@ def load_img(path_to_img):
     return img
 
 def main():
-    content_folder_path = '../Projet_Linux_Image/content_images'
-    style_folder_path = '../Projet_Linux_Image/style_images'
+    content_folder_path = './content_images'
+    style_folder_path = './style_images'
 
     content_images = os.listdir(content_folder_path)
     style_images = os.listdir(style_folder_path)

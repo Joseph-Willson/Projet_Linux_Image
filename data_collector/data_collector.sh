@@ -21,5 +21,6 @@ mv image_content_2.jpg content_images/
 
 mv image_style_1.jpg style_images/
 
+
 # Donner des permissions au dossier source
 chmod +x ./data_collector/data_collector.sh

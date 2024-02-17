@@ -73,8 +73,8 @@ def select_image(images_list, folder_name):
 
 
 def main():
-    content_folder_path = '../content_images'
-    style_folder_path = '../style_images'
+    content_folder_path = './content_images'
+    style_folder_path = './style_images'
 
     content_images = list_images_from_folder(content_folder_path)
     style_images = list_images_from_folder(style_folder_path)
