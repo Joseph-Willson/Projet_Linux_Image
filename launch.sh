@@ -6,11 +6,11 @@ echo "******************* Collecte des données *******************"
 bash ./data_collector/data_collector.sh
 echo "******************* Données collectées *******************"
 
-# echo "******************* Lecture et affichage *******************"
-# bash ./data_integrator/data_integrator.sh
+#echo "******************* Lecture et affichage *******************"
+#bash ./data_integrator/data_integrator.sh
 
 echo "******************* Affichage de l'application *******************"
-python -m streamlit run ./Webapp/app.py --server.port 8084
+python3 -m streamlit run ./Webapp/app.py --server.port 8081
 
 
 
