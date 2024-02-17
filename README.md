@@ -7,3 +7,17 @@
 #### Entrez dans le projet
 
 `   cd Projet_Linux_Image                                            `
+
+#### Excuter la commande bash ci-dessous pour installer les librairies, service docker et dépendance
+
+`   bash install.sh                                                  `
+
+
+#### Puis executer la commande bash ci-dessous pour lancer l'application
+
+`   bash launch.sh                                                   `
+
+
+
+
+
