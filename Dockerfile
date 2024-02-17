@@ -1,14 +1,13 @@
-# syntax=docker/dockerfile:1
+FROM ubuntu:20.04
 
-FROM python:3.8-slim-buster
+RUN apt update && apt-get install -y curl && apt-get install -y python3 && apt-get install -y python3-pip \
+RUN python3 -m pip install virtualenv
 
-WORKDIR /app
+MKDIR Projet_Linux_Image
 
-COPY requirements.txt requirements.txt
-RUN pip3 install -r requirements.txt
-
+WORKDIR /Projet_Linux_Image
 COPY . .
 
-EXPOSE 5000
+RUN bash ../install.sh
 
-CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0"]
+CMD ["bash", "launch.sh"]
