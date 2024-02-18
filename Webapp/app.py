@@ -52,6 +52,9 @@ def main():
         st.image(intro_image_url, caption="Introduction Image", use_column_width=True)
 
     elif page == "Select Images":
+        st.title("Artify - Select Images")
+        st.write("Select images from the available options:")
+
         content_folder_path = './content_images'
         style_folder_path = './style_images'
 
@@ -61,19 +64,28 @@ def main():
         selected_content_image = st.sidebar.selectbox("Select a content image:", content_images)
         selected_style_image = st.sidebar.selectbox("Select a style image:", style_images)
 
+        quality_options = {"Faible": 3, "Moyen": 7, "Élevé": 10}
+        selected_quality = st.sidebar.selectbox("Niveau de qualité:", options=list(quality_options.keys()))
+
+        epochs = quality_options[selected_quality]
+
         content_path = os.path.join(content_folder_path, selected_content_image)
         style_path = os.path.join(style_folder_path, selected_style_image)
 
         content_image = load_img(content_path)
         style_image = load_img(style_path)
 
-        st.title("Selected Images")
-        st.image(tensor_to_image(content_image), caption="Selected Content Image", use_column_width=True)
-        st.image(tensor_to_image(style_image), caption="Selected Style Image", use_column_width=True)
+        # Afficher les images sélectionnées dans un conteneur
+        st.subheader("Selected Images")
+        col1, col2 = st.columns(2)
+        with col1:
+            st.image(tensor_to_image(content_image), caption="Selected Content Image", use_column_width=True)
+        with col2:
+            st.image(tensor_to_image(style_image), caption="Selected Style Image", use_column_width=True)
 
         if st.button('Run Model'):
             st.info("Running the model...")
-            
+
             # Les couches intérmédiaires:
             content_layers = ['block5_conv2']
 
@@ -158,16 +170,17 @@ def main():
             # Entrainement du modèle
             start = time.time()
 
-            epochs = 3
             steps_per_epoch = 100
 
             step = 0
+            progress_bar = st.progress(0)
             for n in range(epochs):
                 for m in range(steps_per_epoch):
                     step += 1
                     train_step(image)
-                    print(".", end='', flush=True)
-                st.image(tensor_to_image(image), caption=f"Train step: {step}")
+                progress_bar.progress((n + 1) / epochs)
+
+            progress_bar.empty()
 
             # Enregistrer l'image résultante sur le disque
             result_image = tensor_to_image(image)
