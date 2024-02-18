@@ -1,6 +1,6 @@
 # Projet de transfère d'image
 
-## Objectif : Revisiter  le concept d'art au travers de l'intélligence artficielle
+## Objectif : Revisiter le concept d'art à travers l'intelligence artificielle
 ![1_8bbp3loQjkLXaIm_QBfD8w](https://github.com/Joseph-Willson/Projet_Linux_Image/assets/102141518/6ef79402-0f01-4e07-9562-96268c58796b)
 
 
@@ -8,9 +8,9 @@ Dans un monde où la technologie façonne nos interactions quotidiennes, notre p
 
 
 
-### Afin d'executer le projet, nous vous invitons à suivre les étapes suivantes qui vous permettrons d'avoir accès à notre projet
+### Afin d'exécuter le projet, nous vous invitons à suivre les étapes suivantes qui vous permettront d'accéder à notre projet
 
-#### Commande à executer pour lancer le projet :
+#### Commande à exécuter pour lancer le projet :
 
 #### cloner le projet
 
@@ -20,19 +20,19 @@ Dans un monde où la technologie façonne nos interactions quotidiennes, notre p
 
 `cd Projet_Linux_Image                                            `
 
-#### Excuter la commande bash ci-dessous pour installer les librairies et dépendance
+#### Exécuter la commande bash ci-dessous pour installer les bibliothèques et dépendances
 
 `bash install.sh                                                  `
 
 
-#### Puis executer la commande bash ci-dessous pour lancer l'application
+#### Puis exécuter la commande bash ci-dessous pour lancer l'application.
 
 `bash launch.sh                                                   `
 
 
-### Dans le cadre de notre projet, nous avons crée un dockerfile pour la gestion des dépendances permettant de lancer le projet dans l' environnement dans lequel le projet a été travaillé
+### Dans le cadre de notre projet, nous avons créé un Dockerfile pour la gestion des dépendances, permettant de lancer le projet dans l'environnement dans lequel il a été travaillé.
 
-#### Vous pourrez suivre les étapes suivantes pour lancer le projet depuis le dockerfile :
+#### Vous pourrez suivre les étapes suivantes pour lancer le projet à partir du Dockerfile :
 
 #### cloner le projet
 
