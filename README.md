@@ -1,6 +1,7 @@
 # Projet de transfère d'image
 
 ## Objectif : Revisiter  le concept d'art au travers de l'intélligence artficielle
+![1_8bbp3loQjkLXaIm_QBfD8w](https://github.com/Joseph-Willson/Projet_Linux_Image/assets/102141518/6ef79402-0f01-4e07-9562-96268c58796b)
 
 
 Bienvenue dans le monde de l'innovation technologique où l'intelligence artificielle devient le véritable chef d'orchestre de la transformation numérique. Notre projet incarne cette fusion entre la créativité humaine et les capacités algorithmiques de l'IA. En combinant la puissance de l'apprentissage automatique avec l'esthétique visuelle, nous avons développé un système révolutionnaire de transfert d'images. Plongeant dans les profondeurs de la reconnaissance de motifs et de la compréhension des styles artistiques, notre projet repousse les frontières de la création visuelle. Découvrez comment notre initiative redéfinit les normes de l'imagerie numérique et ouvre de nouveaux horizons pour l'expression artistique et la communication visuelle.
