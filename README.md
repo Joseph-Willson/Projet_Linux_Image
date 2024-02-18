@@ -20,7 +20,7 @@ Dans un monde où la technologie façonne nos interactions quotidiennes, notre p
 
 `cd Projet_Linux_Image                                            `
 
-#### Exécuter la commande bash ci-dessous pour installer les bibliothèques et dépendances
+#### Exécuter la commande bash ci-dessous pour installer les bibliothèques, dépendances et environnement virtuel
 
 `bash install.sh                                                  `
 
