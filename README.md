@@ -49,6 +49,7 @@ Dans un monde où la technologie façonne nos interactions quotidiennes, notre p
 
 ## Enjoy 😊
 
+![1699444010913 2~tplv-6rr7idwo9f-image (1)](https://github.com/Joseph-Willson/Projet_Linux_Image/assets/102141518/f68ddf02-3ce0-43c3-a046-f0262a5bd599)
 
 
 
