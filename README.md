@@ -29,7 +29,7 @@ Dans un monde où la technologie façonne nos interactions quotidiennes, notre p
 
 `bash launch.sh                                                   `
 
-Une fois arrivé sur la page Web vous pourrez selectionner les images que vous souhaitez mixer et définir le niveau de qualité (Faible, Moyen, Elevé)
+Une fois arrivé sur la page Web vous pourrez selectionner les images que vous souhaitez mixer et définir le niveau de qualité (Faible, Moyen, Elevé)\n
 Attention : le niveau elevé risque de prendre tu temps à tourner 😁
 
 ### Dans le cadre de notre projet, nous avons créé un Dockerfile pour la gestion des dépendances, permettant de lancer le projet dans l'environnement dans lequel il a été travaillé.
