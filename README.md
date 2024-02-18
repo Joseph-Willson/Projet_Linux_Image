@@ -1,4 +1,4 @@
-# Projet de transfère d'image
+# Projet de transfère d'image - ARTIFY
 
 ## Objectif : Revisiter le concept d'art à travers l'intelligence artificielle
 ![1_8bbp3loQjkLXaIm_QBfD8w](https://github.com/Joseph-Willson/Projet_Linux_Image/assets/102141518/6ef79402-0f01-4e07-9562-96268c58796b)
