@@ -8,9 +8,11 @@ Dans un monde où la technologie façonne nos interactions quotidiennes, notre p
 
 
 
-## Afin d'executer le projet, nous vous invitons à suivre les étapes suivantes qui vous permettrons d'avoir accès à notre projet
+### Afin d'executer le projet, nous vous invitons à suivre les étapes suivantes qui vous permettrons d'avoir accès à notre projet
 
-### Commande à executer pour lancer le projet
+#### Commande à executer pour lancer le projet :
+
+#### cloner le projet
 
 `git clone https://github.com/Joseph-Willson/Projet_Linux_Image.git                               `
 
@@ -28,9 +30,11 @@ Dans un monde où la technologie façonne nos interactions quotidiennes, notre p
 `bash launch.sh                                                   `
 
 
-## Dans le cadre de notre projet, nous avons crée un dockerfile pour la gestion des dépendances permettant de lancer le projet dans l' environnement dans lequel le projet a été travaillé
+### Dans le cadre de notre projet, nous avons crée un dockerfile pour la gestion des dépendances permettant de lancer le projet dans l' environnement dans lequel le projet a été travaillé
 
-### Vous pourrez suivre les étapes suivantes pour lancer le projet depuis le dockerfile
+#### Vous pourrez suivre les étapes suivantes pour lancer le projet depuis le dockerfile :
+
+#### cloner le projet
 
 `git clone https://github.com/Joseph-Willson/Projet_Linux_Image.git                               `
 
