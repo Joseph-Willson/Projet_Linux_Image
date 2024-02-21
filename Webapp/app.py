@@ -51,6 +51,26 @@ def main():
         intro_image_url = "https://miro.medium.com/v2/resize:fit:1400/1*8bbp3loQjkLXaIm_QBfD8w.jpeg"
         st.image(intro_image_url, caption="Introduction Image", use_column_width=True)
 
+        st.header("Donnez vos images en entrées")
+        # Charger et afficher les deux premières images côte à côte
+        col1, col2 = st.columns(2)
+        with col1:
+            image_path_1 = "./exemple/Elia_Rahari.jpeg"  # Chemin de votre première image
+            image1 = PIL.Image.open(image_path_1)
+            st.image(image1, caption="Image 1", use_column_width=True)
+
+        with col2:
+            image_path_2 = "./exemple/Starry_night.jpg"  # Chemin de votre deuxième image
+            image2 = PIL.Image.open(image_path_2)
+            st.image(image2, caption="Image 2", use_column_width=True)
+
+
+        st.header("Générez votre image")
+        # Charger et afficher la troisième image juste en dessous des deux premières
+        image_path_3 = "exemple/result_image.png"  # Chemin de votre troisième image
+        image3 = PIL.Image.open(image_path_3)
+        st.image(image3, caption="Image 3", use_column_width=True)
+
     elif page == "Select Images":
         st.title("Artify - Select Images")
         st.write("Select images from the available options:")

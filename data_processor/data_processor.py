@@ -73,8 +73,8 @@ def select_image(images_list, folder_name):
 
 
 def main():
-    content_folder_path = './content_images'
-    style_folder_path = './style_images'
+    content_folder_path = '../content_images'
+    style_folder_path = '../style_images'
 
     content_images = list_images_from_folder(content_folder_path)
     style_images = list_images_from_folder(style_folder_path)
@@ -198,7 +198,7 @@ opt = tf.keras.optimizers.Adam(learning_rate=0.02, beta_1=0.99, epsilon=1e-1)
 import time
 start = time.time()
 
-epochs = 3
+epochs = 10
 steps_per_epoch = 100
 
 step = 0
@@ -212,8 +212,8 @@ for n in range(epochs):
   print("Train step: {}".format(step))
 
 # Enregistrer l'image résultante sur le disque
-# result_image = tensor_to_image(image)
-# result_image.save("result_image.png")
+result_image = tensor_to_image(image)
+result_image.save("../exemple/result_image.png")
 
 end = time.time()
 print("Total time: {:.1f}".format(end-start))
